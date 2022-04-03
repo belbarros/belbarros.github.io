@@ -1,77 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Bel Barros // Front End Developer & Designer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #d4f0f3;
-            font-family: Montserrat, sans-serif;
-            font-size: 12px;
-
-
-        }
-        p {
-            color: #0C1B33;
-            
-        }
-
-        a {
-            color:#EF959B ;
-            font-weight: 700;
-            text-decoration: none;
-        }
-
-        .profile-pic {
-            border-radius: 100%;;
-        }
-
-        span {
-            color:#588B8B;
-            font-weight: 600;
-        }
-
-
-        h5 {
-            font-weight: 200;
-            color:#588B8B;
-        }
-
-        h3 {
-            text-align: center;
-            font-weight: 800;
-            color: #EC6F79;
-            font-size: 1,5em;
-
-        }
-
-        li {
-            color:#588B8B;
-            font-weight: 500;
-        }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h6><a href="#sobre">Sobre</a></h6>
-    <h6><a href="#projetos">Projetos</a></h6>
-    <h6><a href="#contato">Contato</a></h6>
 
-    <img src="fotobel.jpg" width="200" alt="Foto de Bel, em preto e branco, olhando para o lado enquanto sorri sem mostrar os dentes." class="profile-pic">
-    <h5><em>Bel Barros // Front End Developer // Florianópolis/SC</em></h5>
+<div class="menu">
+    <ul id="menu-items">
+        <!-- <h6><a href="#sobre">Sobre</a></h6>
+        <h6><a href="#projetos">Projetos</a></h6>
+        <h6><a href="#contato">Contato</a></h6> -->
+        <li><a href="#description">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        </ul>
+</div>
 
-    <p id="sobre">Olá! Sou a Izabel de Barros, mas pode me chamar de Bel!<br>
-    Atualmente sou <span>estudante de Desenvolvimento Web</span> pela <a href="https://blog.betrybe.com/" target="_blank">Trybe</a>,
-     mas já sou formada em <span>Design com foco em Design Gráfico</span> e suas áreas. </p>
-    <p>Apaixonada por livros, arte e bichinhos fofos (como minhas duas cachorrinhas).<br>
-    Nas horas vagas, você pode me encontrar no <a href=¨https://twitter.com/" target="_blank">Twitter</a> 
-    ou no <a href="https://tiktok.com" target="_blank">Tiktok</a>!</p>
+<div class="blocks">
 
-    <h3 id="projetos">Projetos</h3>
-    <p>Aqui você encontra meus projetos feitos durante minha passagem na Trybe. <br> 
-        As minhas principais habilidades são:</p>
+<div class="sobre">
+    <img src="fotobel.jpg" width="150" alt="Foto de Bel, em preto e branco, olhando para o lado enquanto sorri sem mostrar os dentes." class="profile-pic">
+    <br>
+    <h5 id="nome"><strong>Bel Barros</strong></h5>
+    <h5><em>Front End Developer // Florianópolis/SC</em></h5>
+<br>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -80,12 +39,42 @@
         <li>Design Gráfico</li>
         <li>UI/UX Design</li>
     </ul>
+    <br>
+    <img src="https://cutewallpaper.org/21/8-bit-gif-background/8-bit-gif-background-clipart-images-gallery-for-free-.gif" id="doggo">
+</div>
 
+<div class="direita">
+
+<div id="description">
+    <p id="first">Olá! Sou a Izabel de Barros, mas pode me chamar de <strong>Bel</strong>!<br><br></p>
+    <p>Atual <span>estudante de Desenvolvimento Web</span> pela <a href="https://blog.betrybe.com/" target="_blank">Trybe</a>,
+     mas já formada em <span>Design com foco em Design Gráfico</span> e suas áreas. </p>
+    <p>Apaixonada por livros, arte e bichinhos fofos (como minhas duas cachorrinhas).<br>
+    Nas horas vagas, você pode me encontrar no <a href=¨https://twitter.com/" target="_blank">Twitter</a> 
+    ou no <a href="https://tiktok.com" target="_blank">Tiktok</a>!</p>
+</div>
+<hr>
+<div class="projects">
+    <h3 id="projetos">Projetos</h3>
+    <p>Aqui você encontra meus projetos realizados durante minha passagem na Trybe.</p>
+<br>
+<img src="mario-project.png" id="mario">
+<p class="legenda">Mario e Bowser {Exercício de Fixação}</p>
+
+</div>
+<hr>
+<div class="contact">
     <h3 id="contato">Contato</h3>
     <ul>
-        <li>Email: meuemail@gmail.com</li>
+        <li>meuemail@gmail.com</li>
         <li><a href="https://www.linkedin.com/in/belbarros/" target="_blank">Linkedin</a></li>
         <li><a href="https://github.com/belbarros" target="_blank">GitHub</a></li>
     </ul>
+</div>
+
+</div>
+
+</div>
+
 </body>
 </html>
