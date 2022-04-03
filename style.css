@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #c3e6db;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+}
+p {
+    color: #0C1B33;
+}
+
+a {
+    color:#EF959B ;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.profile-pic {
+    border-radius: 100%;;
+}
+
+span {
+    color:#588B8B;
+    font-weight: 600;
+}
+
+
+h5 {
+    font-weight: 300;
+    color: #EC6F79;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    color: #EC6F79;
+    font-size: 1,5em;
+    margin-bottom: 7px;
+}
+
+li {
+    color:#588B8B;
+    font-weight: 500;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 25px;  
+}
+
+#menu-items {
+    list-style:none;
+    text-align: center;
+}
+
+.menu {
+    position: flex;
+    background-color: #e1f3ed;
+    border-bottom: 1px solid teal;
+}
+
+.sobre {
+    background-color: #e1f3ed;
+    padding: 20px 20px;
+    font-size: 10px;
+    border: 2px dotted teal;
+    margin-right: 20px;
+    max-height: 360px;
+}
+
+.sobre li {
+    list-style: none;
+    font-weight: 700;
+}
+
+.sobre li:nth-of-type(odd) {
+    font-style: italic;
+}
+
+.sobre ul {
+    padding: 0px;
+    text-align: center;
+}
+
+.sobre img {
+    margin: auto;
+    display: block;
+}
+
+#doggo {
+    width: 70px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.direita {
+    background-color: #e1f3ed;
+    padding: 20px;
+    border: 2px dotted teal;
+}
+
+hr {
+    color: #588B8B;
+    border-top: 2px dotted;
+    margin:10px 30px;
+}
+
+#description p {
+    text-align: center;
+    padding: 0px 30px;
+    line-height: 15px;
+}
+
+#description strong {
+    color: #EC6F79;
+}
+
+#mario {
+    width:500px;
+    display: block;
+    margin: auto;
+}
+
+.legenda {
+    text-align: center;
+    font-style: italic;
+    margin: 3px;
+    font-size: 10px;
+}
+
+.projects p {
+    font-size: 11px;
+    margin-top: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.contact ul {
+    text-align: center;
+    padding: 0;
+}
+
+#nome {
+    font-size: 15px;
+}
+
+#first {
+    font-size: 15px;
+}
